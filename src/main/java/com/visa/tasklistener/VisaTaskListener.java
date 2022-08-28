@@ -9,8 +9,8 @@ public class VisaTaskListener implements TaskListener {
 	public void notify(DelegateTask delegateTask) {
 	
 		String destination = (String) delegateTask.getVariable("destination");
-			
-		Date appointmentDate = (Date) delegateTask.getVariable("appointmentDate");
+
+		String govtId = (String) delegateTask.getVariable("govtId");
 		
 		
 	}
